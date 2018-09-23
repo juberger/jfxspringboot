@@ -1,12 +1,12 @@
 package fr.jbe.jfxspringboot.view.controller;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
-@Component
+@Controller
 public class MainController {
 
 	@FXML
